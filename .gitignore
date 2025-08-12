@@ -116,3 +116,6 @@ routes_changes.txt
 /data/
 /data/app.db
 
+
+# Local Netlify folder
+.netlify
