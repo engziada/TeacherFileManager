@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: teacher-file-manager-backend
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVarsFile: .env  # This tells Render to load environment variables from .env
+    disk:
+      name: data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 1
