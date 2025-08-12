@@ -1,0 +1,167 @@
+Google Drive Service imported and initialized
+(node:15676) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error initializing captcha questions: ErrorEvent {
+  [Symbol(kTarget)]: WebSocket {
+    _events: [Object: null prototype] {
+      error: [Function],
+      message: [Function],
+      close: [Function],
+      open: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    _binaryType: 'arraybuffer',
+    _closeCode: 1006,
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: <Buffer >,
+    _closeTimer: null,
+    _errorEmitted: true,
+    _extensions: {},
+    _paused: false,
+    _protocol: '',
+    _readyState: 3,
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _bufferedAmount: 0,
+    _isServer: false,
+    _redirects: 0,
+    _autoPong: true,
+    _url: 'wss://./v2',
+    _req: null,
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  },
+  [Symbol(kType)]: 'error',
+  [Symbol(kError)]: Error: getaddrinfo ENOTFOUND .
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: '.'
+  },
+  [Symbol(kMessage)]: 'getaddrinfo ENOTFOUND .'
+}
+6:26:09 PM [express] serving on port 5000
+Browserslist: browsers data (caniuse-lite) is 10 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Simple registration request: {
+  name: '┘à╪¡┘à╪» ╪▓┘è╪º╪»╪⌐',
+  schoolName: '╪º┘ä┘à╪»╪▒╪│╪⌐ ╪º┘ä╪ú╪│╪º╪│┘è╪⌐',
+  email: 'engziada@gmail.com',
+  password: 'mazisvip',
+  driveFolderLink: null
+}
+Extracted fields: {
+  name: '┘à╪¡┘à╪» ╪▓┘è╪º╪»╪⌐',
+  schoolName: '╪º┘ä┘à╪»╪▒╪│╪⌐ ╪º┘ä╪ú╪│╪º╪│┘è╪⌐',
+  email: 'engziada@gmail.com',
+  password: true,
+  driveFolderLink: null
+}
+Error creating teacher: ErrorEvent {
+  [Symbol(kTarget)]: WebSocket {
+    _events: [Object: null prototype] {
+      error: [Function],
+      message: [Function],
+      close: [Function],
+      open: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    _binaryType: 'arraybuffer',
+    _closeCode: 1006,
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: <Buffer >,
+    _closeTimer: null,
+    _errorEmitted: true,
+    _extensions: {},
+    _paused: false,
+    _protocol: '',
+    _readyState: 3,
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _bufferedAmount: 0,
+    _isServer: false,
+    _redirects: 0,
+    _autoPong: true,
+    _url: 'wss://./v2',
+    _req: null,
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  },
+  [Symbol(kType)]: 'error',
+  [Symbol(kError)]: Error: getaddrinfo ENOTFOUND .
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: '.'
+  },
+  [Symbol(kMessage)]: 'getaddrinfo ENOTFOUND .'
+}
+6:30:17 PM [express] POST /api/teacher/simple-register 500 in 1485ms :: {"message":"Failed to createΓÇª
+Simple registration request: {
+  name: '┘à╪¡┘à╪» ╪▓┘è╪º╪»╪⌐',
+  schoolName: '╪º┘ä┘à╪»╪▒╪│╪⌐ ╪º┘ä╪ú╪│╪º╪│┘è╪⌐',
+  email: 'engziada@gmail.com',
+  password: 'mazisvip',
+  driveFolderLink: null
+}
+Extracted fields: {
+  name: '┘à╪¡┘à╪» ╪▓┘è╪º╪»╪⌐',
+  schoolName: '╪º┘ä┘à╪»╪▒╪│╪⌐ ╪º┘ä╪ú╪│╪º╪│┘è╪⌐',
+  email: 'engziada@gmail.com',
+  password: true,
+  driveFolderLink: null
+}
+Error creating teacher: ErrorEvent {
+  [Symbol(kTarget)]: WebSocket {
+    _events: [Object: null prototype] {
+      error: [Function],
+      message: [Function],
+      close: [Function],
+      open: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    _binaryType: 'arraybuffer',
+    _closeCode: 1006,
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: <Buffer >,
+    _closeTimer: null,
+    _errorEmitted: true,
+    _extensions: {},
+    _paused: false,
+    _protocol: '',
+    _readyState: 3,
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _bufferedAmount: 0,
+    _isServer: false,
+    _redirects: 0,
+    _autoPong: true,
+    _url: 'wss://./v2',
+    _req: null,
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  },
+  [Symbol(kType)]: 'error',
+  [Symbol(kError)]: Error: getaddrinfo ENOTFOUND .
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: '.'
+  },
+  [Symbol(kMessage)]: 'getaddrinfo ENOTFOUND .'
+}
+6:30:34 PM [express] POST /api/teacher/simple-register 500 in 1456ms :: {"message":"Failed to createΓÇª
+[2m6:51:17 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/teacher-dashboard.tsx, /src/index.css?v=heY5rGq-woxQyv1xBrX-E[22m

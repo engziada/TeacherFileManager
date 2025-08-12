@@ -1,0 +1,118 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+.next/
+
+# Database
+*.db
+*.sqlite
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+
+# Replit specific
+.replit
+replit.nix
+
+# Drizzle
+drizzle/client_secret_990922693679-0rpb4envsg977g65beivodut2988gs45.apps.googleusercontent.com (1).json
+
+# Dependencies
+/node_modules
+
+# Secrets and Environment Variables
+.env*
+client_secret_*.json
+
+# Database
+*.sqlite
+*.sqlite-journal
+
+# Build output
+/dist
+/build
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log
+
+# Temporary Files
+commit_changes.txt
+routes_changes.txt
+
+# IDE Configuration
+.vscode/
+
+
+# Secrets
+client_secret_*.json
+attached_assets/*.json
+.env*
+# Database
+*.sqlite*
+# Builds
+dist/
+build/
+# Dependencies
+node_modules/
+# Editor
+.vscode/
+# Temp
+commit_changes.txt
+routes_changes.txt
+# Keep logs
+!Logs/
+
+
+# SQLite DB
+/data/
+/data/app.db
+
